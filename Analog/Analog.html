@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boxes</title>
+    <style type="text/css">
+        body {
+            /*chọn cỡ chữ */
+            font-size: 80%;
+            /*chọn phông chữ */
+            font-family: "Courier New", Courier, monospace;
+            /*tăng hoặc giảm khoảng cách giữa các ký tự trong đoạn text.*/
+            letter-spacing: 0.15em;
+            /*chọn màu cho background */
+            background-color: #efefef;
+        }
+        #page {
+            /*chiều rộng tối đa */
+            max-width: 940px;
+            /*chiều rộng tối thiểu */
+            min-width: 720px;
+            /*canh lề cho thành phần */
+            margin: 10px auto 10px auto;
+            /*tạo không gian xung quanh nội dung*/
+            padding: 20px;
+            /*chỉ định màu và chiều rộng của đường viền*/
+            border: 4px double #000;
+            /*màu của background*/
+            background-color: #ffffff;
+        }
+        #logo {
+            /*chiều rộng */
+            width: 150px;
+            /*canh lề cho thành phần */
+            margin: 10px auto 25px auto;
+        }
+        ul {
+            /*chiều rộng của thành phần */
+            width: 570px;
+            /*tạo không gian xung quanh nội dung */
+            padding: 15px;
+            /*canh lề cho thần phần */
+            margin: 0px auto 0px auto;
+            /*Xác màu và độ rộng định đường viền bên trên.*/
+            border-top: 2px solid #000;
+            /*chọn màu và cỡ cho viền dưới*/
+            border-bottom: 1px solid #000;
+            /*sắp xếp nội dung ở giữa */
+            text-align: center;
+        }
+        li {
+            /*xác định thành phần được hiển thị theo chiều ngang*/
+            display: inline;
+            /*canh lề cho thành phần */
+            margin: 0px 3px;
+        }
+        p {
+            /*sắp xếp nội dung ở giữa */
+            text-align: center;
+            /*chiều rộng của thành phần */
+            width: 600px;
+            /*canh lề cho thành phần */
+            margin: 20px auto 20px auto;
+            /*độ dày và mong của chữ */
+            font-weight: normal;
+        }
+        a {
+            /*chọn màu */
+            color: #000000;
+            /*thiết lập các ký tự viết hoa cho văn bản.*/
+            text-transform: uppercase;
+            /*trang trí thêm cho text.*/
+            text-decoration: none;
+            /*tạo không gian xung quanh nội dung */
+            padding: 6px 18px 5px 18px;
+        }
+        a:hover,
+        a.on {
+            /*cọn màu cho thành phần */
+            color: #cc3333;
+            /*chọn màu cho background*/
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+<div id="page">
+    <div id="logo">
+        <img src="images/logo.gif" alt="The Analog Specialists" />
+    </div>
+    <ul id="navigation">
+        <li><a href="#" class="on">Home</a></li>
+        <li><a href="#" >For Sale</a></li>
+        <li><a href="#">Repairs</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <p>
+        <img src="images/keys.jpg" alt="Fender Rhodes, Hohner Clavinet, and Wurlitzer EP200" />
+    </p>
+    <p>
+        We specialize in the sale and repair of classic keyboards,
+        in particular the Fender Rhodes, Wurlitzer EP200, and Hohner Clavinet.
+    </p>
+</div>
+</body>
+</html>

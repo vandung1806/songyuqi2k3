@@ -1,0 +1,37 @@
+body{
+    background-image: url("images/backdrop.gif");
+    color: #666666;
+    background-color: #f9f8f6;
+    font-family: Georgia, Times Serif;
+    line-height: 1.4em;
+    margin-bottom: 100px;
+}
+#sumo{
+    width: 940px;
+    margin: 20px auto 20px auto;
+    margin-bottom: 5px;
+}
+header{
+    text-align: center;
+}
+#anh{
+    width: 80%;
+    padding-left: 120px;
+}
+article{
+    display: inline;
+}
+figure{
+    float: left;
+    padding: 5px;
+    padding-bottom: 0px;
+    margin: 20px 0px 0px 20px;
+    border: 1px solid beige;
+    background-color: beige;
+}
+figcaption{
+    font-size: 90%;
+    text-align: left;
+}
+
+
